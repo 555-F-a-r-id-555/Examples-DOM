@@ -11,7 +11,7 @@ function alert_Runner() {
 let body1 = document.getElementById('bodyid');
 body1.onload = show_Parameters;
 body1.onresize = show_Parameters;
-// document.getElementById('buttonid').onclick = alert_Runner;
+//document.getElementById('buttonid').onclick = alert_Runner;
 
 // body1.addEventListener('load', show_Parameters, false);
 // body1.addEventListener('resize', show_Parameters, false);
