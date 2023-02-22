@@ -30,3 +30,4 @@ function key_up() {
 }
 
 window.onkeyup = key_up;
+window.onfocus = window.onkeyup;
