@@ -1,0 +1,10 @@
+#myblock2 {
+    font: bold 25pt sans;
+    color: blue;
+    width: 1050px;
+    height: 80px;
+    background: rgba(0, 255, 4, 0.89);
+    border: solid 3px red;
+    border-radius: 20px;
+    text-align: center;
+}
