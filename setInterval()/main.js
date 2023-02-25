@@ -5,7 +5,7 @@ let mytime = document.getElementById("mytime");
 let button = document.getElementById("mybutton");
 let num = parseInt(input);
 
-function elements() {
+function startInterval() {
     si = setInterval(printText, 1000);
 }
 
@@ -19,7 +19,7 @@ function printText() {
 }
 
 
-button.onclick = elements;
+button.onclick = startInterval;
 
 
 
