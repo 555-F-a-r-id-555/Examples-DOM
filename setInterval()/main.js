@@ -10,9 +10,12 @@ function elements() {
 }
 
 function printText() {
-    num--;
     mytime.innerHTML = num;
-    if (num == 0) clearInterval(si);
+    num = num - 1;
+    if (num < 0) {
+        clearInterval(si);
+        mytime.innerHTML = "0";
+    }
 }
 
 
